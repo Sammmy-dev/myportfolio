@@ -141,41 +141,6 @@ nav ul li a:hover{
     overflow: hidden;
 }
 
-.skew{
-    background-color: white;
-    border: 1px lightgreen solid;
-    width: 50%;
-    margin: auto;
-    /* margin-top: 50px; */
-    border-radius: 50%;
-    animation-name: irregularcircle;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-    /* animation-delay: 1s; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.skew img{
-    background-color: transparent;
-    animation-name: imgcounter;
-    animation-duration: 10s;
-    width: 100%;
-    position: relative;
-    bottom: -10px;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-direction: alternate;
-}
-
-
 .name{
     color: white;
     width: 50%;
@@ -229,6 +194,40 @@ hr:nth-of-type(2){
 .icons img{
     min-width: 20px;
     width: 2vw
+}
+
+.skew{
+    background-color: white;
+    border: 1px lightgreen solid;
+    width: 50%;
+    margin: auto;
+    /* margin-top: 50px; */
+    border-radius: 50%;
+    animation-name: irregularcircle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /* animation-delay: 1s; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.skew img{
+    background-color: transparent;
+    animation-name: imgcounter;
+    animation-duration: 10s;
+    width: 100%;
+    position: relative;
+    bottom: -10px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
 }
 
 @keyframes irregularcircle{
