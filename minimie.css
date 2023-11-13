@@ -40,6 +40,7 @@ li{
     margin-left: 1rem;
     color: red;
     transition: 300ms 0ms background-color ease;
+    cursor: pointer;
 }
 
 li:hover{
