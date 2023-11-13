@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav,main{
+    width: 100%;
+    padding: 0 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: red 1px solid;
+    background:  white;
+    /* border-radius: 0 0 50px 50px ; */
+}
+
+nav h1{
+    color: red;
+    font-size: 2rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+    margin-left: 1rem;
+    color: red;
+    transition: 300ms 0ms background-color ease;
+}
+
+li:hover{
+    color: rgb(255, 154, 21);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header img{
+    width: 70px;
+    height: 60px;
+    border: 1px rgba(204, 201, 201, 0.2) solid;
+}
+
+
+header a:nth-of-type(1) img{
+    border-radius: 10px 0 0 10px;
+    background: rgba(204, 201, 201, 0.2);
+}
+
+header a:nth-of-type(3) img{
+    border-radius: 0 10px 10px 0;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    flex: 1 1 50%;
+    margin-top: 2rem;
+}
+/* section button{
+    cursor: pointer;
+} */
+hr{
+    margin: 3rem 0;
+    height: 2px;
+    background: rgb(255, 154, 21);
+    border: none;
+    border-radius: 35px;
+}
+
+section h1{
+    color: rgb(255, 154, 21);
+}
+
+section h1, section p,.ING,.ING h2{
+    margin-bottom: 1.5rem;
+}
+
+.imgcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 50%;
+}
+
+.imgcont img{
+    width: 100%;
+    min-width: 300px;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    background:  rgb(255, 154, 21);
+    border: none;
+    border-radius: 35px;
+    margin-top: 2rem;
+    color: white;
+    transition: 300ms 0ms background-color ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(207, 184, 153);
+}
+
+@media (max-width: 920px) {
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .imgcont img{
+        width: 55%;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 600px){
+    nav{
+        flex-direction: column;
+        height: 70px;
+    }
+
+    header{
+        flex-direction: column;
+        position: fixed;
+        top: 15vh;
+        right: 0;
+    }
+
+    ul{
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    header img{
+        width: 50px;
+        height: 42px;
+    }
+
+    header a:nth-of-type(2) img{
+        border-radius: 10px 0 0 10px;
+    }
+
+    header a:nth-of-type(3) img{
+        border-radius: 10px 0 0 10px;
+    }
+
+    section{
+        text-align: center;
+    }
+}
+
+@media (max-width: 381px){
+    header img{
+        width: 40px;
+        height: 35px;
+    }
+}
