@@ -197,8 +197,7 @@ hr:nth-of-type(2){
 }
 
 .skew{
-    background-color: white;
-    border: 1px lightgreen solid;
+    background-color: lightgreen;
     width: 50%;
     margin: auto;
     /* margin-top: 50px; */
