@@ -199,8 +199,6 @@ hr:nth-of-type(2){
 .skew{
     background-color: lightgreen;
     width: 50%;
-    margin: auto;
-    /* margin-top: 50px; */
     border-radius: 50%;
     animation-name: irregularcircle;
     animation-duration: 10s;
@@ -208,10 +206,6 @@ hr:nth-of-type(2){
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    /* animation-delay: 1s; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     z-index: 2;
 }
@@ -221,8 +215,6 @@ hr:nth-of-type(2){
     animation-name: imgcounter;
     animation-duration: 10s;
     width: 100%;
-    position: relative;
-    bottom: -10px;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
