@@ -18,7 +18,6 @@ body{
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.9);
     top: 0;
-    width: 100%;
     overflow-x: hidden;
 }
 
